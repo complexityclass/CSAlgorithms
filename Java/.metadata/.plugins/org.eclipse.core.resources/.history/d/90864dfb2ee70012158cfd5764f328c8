@@ -1,0 +1,25 @@
+package sortings;
+
+import java.util.Random;
+
+/**
+ * @author complexityclass
+ * @version 0.1
+ * 
+ */
+
+public class QuickSort {
+
+	private int[] arr;
+	public static final int MAX_VALUE = 65535;
+
+	public QuickSort(int size) {
+		
+		Random rand = new Random(MAX_VALUE);
+		arr = new int[size];
+		for(int i : arr){
+			arr[i] = rand.nextInt();
+		}
+	}
+
+}

@@ -1,0 +1,21 @@
+package sortings;
+
+import java.util.Random;
+
+/**
+ * @author complexityclass
+ * @version 0.1
+ * 
+ */
+
+public class QuickSort {
+
+	private int[] arr;
+
+	public QuickSort(int range) {
+		
+		Random rand = new Random(range);
+
+	}
+
+}

@@ -1,0 +1,52 @@
+package sortings;
+
+import java.util.Random;
+
+/**
+ * @author complexityclass
+ * @version 0.1
+ * 
+ */
+
+public class QuickSort {
+
+	private int[] arr;
+	public static final int MAX_VALUE = 65535;
+
+	public QuickSort(int[] arr) {
+
+		this.arr = arr;
+	}
+
+	/**
+	 * @param size
+	 *            : int
+	 * 
+	 * */
+	public QuickSort(int size) {
+
+		Random rand = new Random(MAX_VALUE);
+		arr = new int[size];
+		for (int i : arr) {
+			arr[i] = rand.nextInt();
+		}
+	}
+
+	public void sort(int[] arr, int first, int last) {
+
+	}
+
+	public void print() {
+		if (arr.length > 0) {
+
+			for (int i : arr) {
+				System.out.print(arr[i] + " ");
+			}
+
+		} else {
+			System.out.println("array is empty");
+		}
+
+	}
+
+}

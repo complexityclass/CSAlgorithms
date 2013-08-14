@@ -1,0 +1,27 @@
+package tests;
+
+import sortings.QuickSort;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		int[] arr = new int[] { 1, 7, 8, 2, 3, 4, 5 };
+		
+		int[] arr2 = new int[1000];
+		for(int i = 0; i < arr2.length; i++){
+			arr2[i] = 1000 - i;
+		}
+
+		QuickSort qsort = new QuickSort(arr2);
+		qsort.print();
+		System.out.println();
+		qsort.sortArray();
+		qsort.print();
+
+	}
+
+}

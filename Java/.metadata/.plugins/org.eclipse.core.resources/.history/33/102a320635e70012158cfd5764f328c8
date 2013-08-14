@@ -1,0 +1,25 @@
+package tests;
+
+import sortings.QuickSort;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		int[] arr = new int[1000];
+		for(int i: arr){
+			arr[i] = 65535 - i;
+		}
+		
+		QuickSort qsort = new QuickSort(arr);
+		qsort.print();
+		System.out.println();
+		qsort.sortArray();
+		qsort.print();
+
+	}
+
+}
