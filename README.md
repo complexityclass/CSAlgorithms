@@ -1,9 +1,7 @@
 CSAlgorithms
 ============
-
 <table>
 <tr> 
-
 <td align=left>
 <h3>Scala</h3>
 <ul>
@@ -24,7 +22,6 @@ CSAlgorithms
     <li>
 </ul>
 </td>
-
 <td align=left>
 <h3>Java</h3>
 <ul>
@@ -47,7 +44,6 @@ CSAlgorithms
      </li>
 </ul> 
 </td>
-
 </tr> 
 </table>
         
