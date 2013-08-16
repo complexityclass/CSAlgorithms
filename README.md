@@ -44,6 +44,9 @@ CSAlgorithms
      </li>
 </ul> 
 </td>
+
+<td align=left> Algorihms and Data Structures on Java (using jdk 1.7) and Scala (2.10.2)</td>
+
 </tr> 
 </table>
         
