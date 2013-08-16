@@ -1,5 +1,6 @@
 CSAlgorithms
 ============
+<div style="float:left;">
 <h3>Scala</h3>
 <ul>
     <li>
@@ -18,7 +19,9 @@ CSAlgorithms
       </ul>
     <li>
 </ul>
+</div>
 
+<div style="float:right;">
 <h3>Java</h3>
 <ul> <h4> Data Structures </h4> 
      <li>
@@ -38,6 +41,7 @@ CSAlgorithms
             <li> Queue on LinkedList</li>
         <ul>
      </li>
-</ul>     
+</ul> 
+</div>
         
               
