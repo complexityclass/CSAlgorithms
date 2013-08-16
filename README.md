@@ -20,3 +20,24 @@ CSAlgorithms
 </ul>
 
 <h3>Java</h3>
+<ul> <h4> Data Structures </h4> 
+     <li>
+         Bag
+     </li>
+     <li>
+        Stack
+        <ul>
+            <li> Stack on Array </li>
+            <li> Stack on LinkedList</li>
+        <ul>
+     </li>
+     <li>
+        Queue
+        <ul>
+            <li> Queue on Array </li>
+            <li> Queue on LinkedList</li>
+        <ul>
+     </li>
+</ul>     
+        
+              
