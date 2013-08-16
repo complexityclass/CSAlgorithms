@@ -25,7 +25,7 @@ CSAlgorithms
 </ul>
 </td>
 
-<td align=right>
+<td align=center>
 <h3>Java</h3>
 <ul> <h4> Data Structures </h4> 
      <li>
